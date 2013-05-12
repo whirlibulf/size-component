@@ -20,7 +20,8 @@ The options object for this component:
 
     {
       width: 0,
-      height: 0
+      height: 0,
+      radius: 0
     }
 
 All values should be numbers.
