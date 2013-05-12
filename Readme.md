@@ -9,12 +9,9 @@ A component for storing the width and height properties of an object in the whir
 
 ## Usage
 
-The component ID is `size`.
-
 Register the component:
 
-    var component = require('size-component');
-    game.addComponent(new component());
+    game.addComponent('size', require('size-component'));
 
 The options object for this component:
 
